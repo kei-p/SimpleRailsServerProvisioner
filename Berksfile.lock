@@ -1,9 +1,11 @@
 DEPENDENCIES
+  sudo
   tmux
   yum (= 3.8.2)
   yum-epel (= 0.5.3)
 
 GRAPH
+  sudo (2.9.0)
   tmux (1.5.0)
   yum (3.8.2)
   yum-epel (0.5.3)
