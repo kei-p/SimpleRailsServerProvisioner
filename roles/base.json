@@ -1,0 +1,10 @@
+{
+  "name": "base",
+  "default_attributes": {
+  },
+  "run_list": [
+    "recipe[sudo]",
+    "recipe[yum-epel]",
+    "recipe[tmux]"
+  ]
+}
