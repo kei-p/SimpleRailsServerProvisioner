@@ -1,0 +1,29 @@
+{
+  "name": "local",
+  "default_attributes": {
+    "sudo": {
+      "users": [
+        "vagrant"
+      ],
+      "passwordless": "true"
+    },
+    "rbenv": {
+      "user_installs": [
+        {
+          "user": "vagrant",
+          "rubies": [
+            "2.2.4"
+          ],
+          "global": "2.2.4"
+        }
+      ]
+    },
+    "mysql": {
+      "version": "5.6",
+      "port": "3306",
+      "server_root_password": "vagrant",
+      "remove_anonymous_users": true,
+      "remove_test_database": true
+    }
+  }
+}
