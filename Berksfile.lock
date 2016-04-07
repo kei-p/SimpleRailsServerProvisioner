@@ -1,0 +1,10 @@
+DEPENDENCIES
+  tmux
+  yum (= 3.8.2)
+  yum-epel (= 0.5.3)
+
+GRAPH
+  tmux (1.5.0)
+  yum (3.8.2)
+  yum-epel (0.5.3)
+    yum (~> 3.0)
