@@ -2,5 +2,5 @@
 
 berks-cookbooks
 
-nodes/local.json
-clients/local.json
+nodes/vagrant*.json
+clients/vagrant*.json

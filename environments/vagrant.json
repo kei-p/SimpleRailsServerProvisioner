@@ -1,11 +1,13 @@
 {
-  "name": "local",
+  "name": "vagrant",
   "default_attributes": {
-    "sudo": {
-      "users": [
-        "vagrant"
-      ],
-      "passwordless": "true"
+    "authorization" : {
+      "sudo": {
+        "users": [
+          "vagrant"
+        ],
+        "passwordless": true
+      }
     },
     "rbenv": {
       "user_installs": [
@@ -17,6 +19,9 @@
           "global": "2.2.4"
         }
       ]
+    },
+    "rails" : {
+      "user" : "vagrant"
     },
     "mysql": {
       "version": "5.6",
