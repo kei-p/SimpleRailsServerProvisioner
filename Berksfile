@@ -7,5 +7,3 @@ cookbook "sudo"
 
 cookbook 'ruby_build'
 cookbook 'ruby_rbenv', github: "fnichol/chef-rbenv"
-
-cookbook 'mysql', "~> 5.3.6"
