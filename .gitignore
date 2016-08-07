@@ -1,6 +1,6 @@
 .vagrant
 
-cookbooks
+berks-cookbooks
 
 nodes/localhost.json
 clients/localhost.json
