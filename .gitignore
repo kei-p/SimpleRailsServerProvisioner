@@ -2,5 +2,5 @@
 
 berks-cookbooks
 
-nodes/localhost.json
-clients/localhost.json
+nodes/local.json
+clients/local.json
