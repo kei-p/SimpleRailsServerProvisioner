@@ -1,5 +1,5 @@
 {
-  "name": "ruby-application",
+  "name": "rails-server",
   "run_list": [
     "role[base]",
     "recipe[ruby_build]",
